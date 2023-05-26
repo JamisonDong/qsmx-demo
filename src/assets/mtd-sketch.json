@@ -1,0 +1,166 @@
+[
+  {
+    "name": "页面 1",
+    "frame": {
+      "_class": "rect",
+      "constrainProportions": true,
+      "height": 0,
+      "width": 0,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "name": "按钮/面型/次/icon+文字",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 32,
+          "width": 100,
+          "x": 84,
+          "y": 534
+        },
+        "layers": [
+          {
+            "name": "Rectangle 3",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 32,
+              "width": 100,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "name": "icon/线型/搜索",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": true,
+              "height": 16,
+              "width": 16,
+              "x": 12,
+              "y": 8
+            }
+          },
+          {
+            "name": "按钮文本",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 56,
+              "x": 32,
+              "y": 5
+            }
+          }
+        ]
+      },
+      {
+        "name": "按钮/面型/主/文字",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 32,
+          "width": 80,
+          "x": 84,
+          "y": 472
+        },
+        "layers": [
+          {
+            "name": "Rectangle 3",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 32,
+              "width": 80,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "name": "按钮文本",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 56,
+              "x": 12,
+              "y": 5
+            }
+          }
+        ]
+      },
+      {
+        "name": "开关/默认/小/开-常规",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 20,
+          "width": 36,
+          "x": 88,
+          "y": 610
+        },
+        "layers": [
+          {
+            "name": "Rectangle 25",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 20,
+              "width": 36,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "name": "Oval 9",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": true,
+              "height": 16,
+              "width": 16,
+              "x": 18,
+              "y": 2
+            }
+          }
+        ]
+      },
+      {
+        "name": "单选框/基础型",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 22,
+          "width": 52,
+          "x": 90,
+          "y": 667
+        },
+        "layers": [
+          {
+            "name": "单选框内容1",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 28,
+              "x": 24,
+              "y": 0
+            }
+          },
+          {
+            "name": "单选框/单/常规",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 16,
+              "width": 16,
+              "x": 0,
+              "y": 3
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
