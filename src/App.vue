@@ -2,17 +2,20 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld />
   <LoginPage />
+  <JsonToVue />
 </template>
 
 <script>
 import HelloWorld from './components/helloworld/HelloWorld.vue'
 import LoginPage from './components/LoginPage/index'
+import JsonToVue from './components/jsontoVue/index.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     LoginPage,
+    JsonToVue,
   }
 }
 </script>
