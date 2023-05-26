@@ -1,33 +1,35 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld />
-  <LoginPage />
-  <JsonToVue />
+  <!-- <HelloWorld /> -->
+  <!-- <LoginPage /> -->
+  <!-- <JsonToVue /> -->
   <!-- <PinySwitch /> -->
-  <PinySwitch2 />
+  <!-- <PinySwitch2 /> -->
   <CompThree />
-  <CompThree2 />
+  <!-- <CompThree2 /> -->
+  <!-- <PinySwitch3 /> -->
 </template>
 
 <script>
-import HelloWorld from './components/helloworld/HelloWorld.vue'
-import LoginPage from './components/LoginPage/index'
-import JsonToVue from './components/jsontoVue/index.vue'
+// import HelloWorld from './components/helloworld/HelloWorld.vue'
+// import LoginPage from './components/LoginPage/index'
+// import JsonToVue from './components/jsontoVue/index.vue'
 // import PinySwitch from './components/pinySwitch/index.vue'
-import PinySwitch2 from './components/pinySwitch2/index.vue'
+// import PinySwitch2 from './components/pinySwitch2/index.vue'
+// import PinySwitch3 from './components/pinySwitch/index2.vue'
 import CompThree from './components/compThree/index.vue'
-import CompThree2 from './components/compThree/index2.vue'
+// import CompThree2 from './components/compThree/index2.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    LoginPage,
-    JsonToVue,
+    // HelloWorld,
+    // LoginPage,
+    // JsonToVue,
     // PinySwitch,
-    PinySwitch2,
+    // PinySwitch2,
     CompThree,
-    CompThree2,
-
+    // CompThree2,
+    // PinySwitch3,
   }
 }
 </script>
