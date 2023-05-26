@@ -6,6 +6,7 @@
   <!-- <PinySwitch /> -->
   <PinySwitch2 />
   <CompThree />
+  <CompThree2 />
 </template>
 
 <script>
@@ -15,6 +16,7 @@ import JsonToVue from './components/jsontoVue/index.vue'
 // import PinySwitch from './components/pinySwitch/index.vue'
 import PinySwitch2 from './components/pinySwitch2/index.vue'
 import CompThree from './components/compThree/index.vue'
+import CompThree2 from './components/compThree/index2.vue'
 export default {
   name: 'App',
   components: {
@@ -24,6 +26,7 @@ export default {
     // PinySwitch,
     PinySwitch2,
     CompThree,
+    CompThree2,
 
   }
 }
