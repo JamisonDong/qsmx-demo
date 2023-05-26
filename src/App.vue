@@ -3,25 +3,28 @@
   <HelloWorld />
   <LoginPage />
   <JsonToVue />
-  <PinySwitch />
+  <!-- <PinySwitch /> -->
   <PinySwitch2 />
+  <CompThree />
 </template>
 
 <script>
 import HelloWorld from './components/helloworld/HelloWorld.vue'
 import LoginPage from './components/LoginPage/index'
 import JsonToVue from './components/jsontoVue/index.vue'
-import PinySwitch from './components/pinySwitch/index.vue'
+// import PinySwitch from './components/pinySwitch/index.vue'
 import PinySwitch2 from './components/pinySwitch2/index.vue'
-
+import CompThree from './components/compThree/index.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
     LoginPage,
     JsonToVue,
-    PinySwitch,
+    // PinySwitch,
     PinySwitch2,
+    CompThree,
+
   }
 }
 </script>

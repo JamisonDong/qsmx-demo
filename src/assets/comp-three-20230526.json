@@ -1,0 +1,308 @@
+[
+  {
+    "name": "页面 1",
+    "frame": {
+      "_class": "rect",
+      "constrainProportions": true,
+      "height": 0,
+      "width": 0,
+      "x": 0,
+      "y": 0
+    },
+    "layers": [
+      {
+        "name": "按钮",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 40,
+          "width": 68.1875,
+          "x": 801.5658072415437,
+          "y": 769.5935874020574
+        },
+        "layers": [
+          {
+            "name": "ant-btn css-15rg2km ant-btn-primary ant-btn-lg button",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 40,
+              "width": 68.1875,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "name": "文 本",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 26,
+              "width": 38,
+              "x": 16,
+              "y": 7.4296875
+            }
+          }
+        ]
+      },
+      {
+        "name": "Switch",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 22,
+          "width": 56,
+          "x": 727.0349016003895,
+          "y": 701.0498466846244
+        },
+        "layers": [
+          {
+            "name": "ant-switch switch",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 56,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "name": "ant-switch-handle",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 18,
+              "width": 18,
+              "x": 2,
+              "y": 2
+            }
+          },
+          {
+            "name": "关闭",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 24,
+              "x": 25,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "Switch",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 22,
+          "width": 56,
+          "x": 791.0349016003895,
+          "y": 701.0498466846244
+        },
+        "layers": [
+          {
+            "name": "ant-switch switch ant-switch-checked",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 56,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "name": "ant-switch-handle",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 18,
+              "width": 18,
+              "x": 36,
+              "y": 2
+            }
+          },
+          {
+            "name": "开启",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 24,
+              "x": 7,
+              "y": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "按钮",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 24,
+          "width": 44,
+          "x": 929.6908072415436,
+          "y": 818.5935874020574
+        },
+        "layers": [
+          {
+            "name": "ant-btn css-15rg2km ant-btn-text ant-btn-sm ant-btn-dangerous button",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 24,
+              "width": 44,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "name": "文本",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 28,
+              "x": 8,
+              "y": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "编组",
+        "frame": {
+          "_class": "rect",
+          "constrainProportions": false,
+          "height": 22,
+          "width": 195.640625,
+          "x": 847.7358098233284,
+          "y": 985.3603387566299
+        },
+        "layers": [
+          {
+            "name": "编组",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 99,
+              "x": 0,
+              "y": 0
+            },
+            "layers": [
+              {
+                "name": "编组",
+                "frame": {
+                  "_class": "rect",
+                  "constrainProportions": false,
+                  "height": 16,
+                  "width": 16,
+                  "x": 0,
+                  "y": 3
+                },
+                "layers": [
+                  {
+                    "name": "ant-checkbox css-15rg2km ant-checkbox-checked",
+                    "frame": {
+                      "_class": "rect",
+                      "constrainProportions": false,
+                      "height": 16,
+                      "width": 16,
+                      "x": 0,
+                      "y": 0
+                    }
+                  },
+                  {
+                    "name": "编组",
+                    "frame": {
+                      "_class": "rect",
+                      "constrainProportions": false,
+                      "height": 16,
+                      "width": 16,
+                      "x": 0,
+                      "y": 0
+                    },
+                    "layers": [
+                      {
+                        "name": "ant-checkbox-inner",
+                        "frame": {
+                          "_class": "rect",
+                          "constrainProportions": false,
+                          "height": 16,
+                          "width": 16,
+                          "x": 0,
+                          "y": 0
+                        }
+                      },
+                      {
+                        "name": "ant-checkbox-inner",
+                        "frame": {
+                          "_class": "rect",
+                          "constrainProportions": false,
+                          "height": 9.140622828555282,
+                          "width": 5.7109417672444,
+                          "x": 5.245249116377806,
+                          "y": 2.873478585722353
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no checked",
+                "frame": {
+                  "_class": "rect",
+                  "constrainProportions": false,
+                  "height": 22,
+                  "width": 75,
+                  "x": 24,
+                  "y": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "编组",
+            "frame": {
+              "_class": "rect",
+              "constrainProportions": false,
+              "height": 22,
+              "width": 89,
+              "x": 106.640625,
+              "y": 0
+            },
+            "layers": [
+              {
+                "name": "ant-checkbox-inner",
+                "frame": {
+                  "_class": "rect",
+                  "constrainProportions": false,
+                  "height": 16,
+                  "width": 16,
+                  "x": 0,
+                  "y": 3
+                }
+              },
+              {
+                "name": "Checkbox",
+                "frame": {
+                  "_class": "rect",
+                  "constrainProportions": false,
+                  "height": 22,
+                  "width": 65,
+                  "x": 24,
+                  "y": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
