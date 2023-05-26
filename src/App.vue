@@ -3,12 +3,16 @@
   <HelloWorld />
   <LoginPage />
   <JsonToVue />
+  <PinySwitch />
+  <PinySwitch2 />
 </template>
 
 <script>
 import HelloWorld from './components/helloworld/HelloWorld.vue'
 import LoginPage from './components/LoginPage/index'
 import JsonToVue from './components/jsontoVue/index.vue'
+import PinySwitch from './components/pinySwitch/index.vue'
+import PinySwitch2 from './components/pinySwitch2/index.vue'
 
 export default {
   name: 'App',
@@ -16,6 +20,8 @@ export default {
     HelloWorld,
     LoginPage,
     JsonToVue,
+    PinySwitch,
+    PinySwitch2,
   }
 }
 </script>
