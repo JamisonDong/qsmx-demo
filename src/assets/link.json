@@ -1,6 +1,7 @@
 {
-  "simple": "https://raw.githubusercontent.com/JamisonDong/qsmx-demo/master/src/assets/pithy-switch.json",
-  "multi": "https://raw.githubusercontent.com/JamisonDong/qsmx-demo/master/src/assets/comp-three-20230526.json",
-  "mtd": "https://raw.githubusercontent.com/JamisonDong/qsmx-demo/master/src/assets/mtd-sketch.json",
-  "page": "https://raw.githubusercontent.com/JamisonDong/qsmx-demo/master/src/assets/biz-sketch.json"
+  "#001": "https://raw.githubusercontent.com/JamisonDong/qsmx-demo/master/src/assets/pithy-switch.json",
+  "#002": "https://raw.githubusercontent.com/JamisonDong/qsmx-demo/master/src/assets/comp-three-20230526.json",
+  "#003-mtd": "https://raw.githubusercontent.com/JamisonDong/qsmx-demo/master/src/assets/mtd-sketch.json",
+  "#004": "https://raw.githubusercontent.com/JamisonDong/qsmx-demo/master/src/assets/biz-sketch.json",
+  "mtd": "https://raw.githubusercontent.com/JamisonDong/qsmx-demo/master/src/assets/mtd.json"
 }
