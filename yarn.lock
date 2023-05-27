@@ -1175,6 +1175,27 @@
   resolved "https://registry.yarnpkg.com/@soda/get-current-script/-/get-current-script-1.0.2.tgz#a53515db25d8038374381b73af20bb4f2e508d87"
   integrity sha512-T7VNNlYVM1SgQ+VsMYhnDkcGmWhQdL0bDyGm5TlQ3GBXnJscEClUUOKduWTmm2zCnvNLC1hc3JpuXjs/nFOc5w==
 
+"@ss/lx-report@^0.0.3-beta.5":
+  version "0.0.3"
+  resolved "http://r.npm.sankuai.com/@ss/lx-report/download/@ss/lx-report-0.0.3.tgz#b8a5e3e7cf57cfc10ee1da433db2f5db75e4f2bd"
+  integrity sha1-uKXj589Xz8EO4dpDPbL123Xk8r0=
+
+"@ss/mtd-vue@^0.4.12":
+  version "0.4.12"
+  resolved "http://r.npm.sankuai.com/@ss/mtd-vue/download/@ss/mtd-vue-0.4.12.tgz#afea6a0ac0605cd0e75a7ccd01695e1e47f08f98"
+  integrity sha1-r+pqCsBgXNDnWnzNAWleHkfwj5g=
+  dependencies:
+    "@ss/lx-report" "^0.0.3-beta.5"
+    async-validator "^1.12.2"
+    babel-helper-vue-jsx-merge-props "^2.0.3"
+    babel-runtime "^6.26.0"
+    dayjs "^1.10.7"
+    deepmerge "^2.2.1"
+    normalize-wheel "^1.0.1"
+    popper.js "^1.16.0"
+    resize-observer-polyfill "^1.5.1"
+    throttle-debounce "^1.0.1"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
@@ -2033,6 +2054,11 @@ astral-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
+async-validator@^1.12.2:
+  version "1.12.2"
+  resolved "http://r.npm.sankuai.com/async-validator/download/async-validator-1.12.2.tgz#beae671e7174d2938b7b4b69d2fb7e722b7fd72c"
+  integrity sha1-vq5nHnF00pOLe0tp0vt+cit/1yw=
+
 async-validator@^4.0.0:
   version "4.2.5"
   resolved "https://registry.npmmirror.com/async-validator/-/async-validator-4.2.5.tgz#c96ea3332a521699d0afaaceed510a54656c6339"
@@ -2061,6 +2087,11 @@ autoprefixer@^10.2.4:
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
     postcss-value-parser "^4.2.0"
+
+babel-helper-vue-jsx-merge-props@^2.0.3:
+  version "2.0.3"
+  resolved "http://r.npm.sankuai.com/babel-helper-vue-jsx-merge-props/download/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
+  integrity sha1-Iq69OzOQIyjlEyk6jkmSs4T58bY=
 
 babel-loader@^8.2.2:
   version "8.3.0"
@@ -2102,6 +2133,14 @@ babel-plugin-polyfill-regenerator@^0.4.1:
   integrity sha512-NtQGmyQDXjQqQ+IzRkBVwEOz9lQ4zxAQZgoAYEtU9dJjnl1Oc98qnN7jcp+bE7O7aYzVpavXE3/VKXNzUbh7aw==
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.3"
+
+babel-runtime@^6.26.0:
+  version "6.26.0"
+  resolved "http://r.npm.sankuai.com/babel-runtime/download/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -2536,6 +2575,11 @@ core-js-compat@^3.25.1, core-js-compat@^3.8.3:
   dependencies:
     browserslist "^4.21.5"
 
+core-js@^2.4.0:
+  version "2.6.12"
+  resolved "http://r.npm.sankuai.com/core-js/download/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha1-2TM9+nsGXjR8xWgiGdb2kIWcwuw=
+
 core-js@^3.15.1, core-js@^3.8.3:
   version "3.30.2"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.30.2.tgz#6528abfda65e5ad728143ea23f7a14f0dcf503fc"
@@ -2707,7 +2751,7 @@ csstype@^3.1.1:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
-dayjs@^1.10.5:
+dayjs@^1.10.5, dayjs@^1.10.7:
   version "1.11.7"
   resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
   integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
@@ -2742,6 +2786,11 @@ deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha512-95k0GDqvBjZavkuvzx/YqVLv/6YYa17fz6ILMSf7neqQITCPbnfEnQvEgMPNjH4kgobe7+WIL0yJEHku+H3qtQ==
+
+deepmerge@^2.2.1:
+  version "2.2.1"
+  resolved "http://r.npm.sankuai.com/deepmerge/download/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+  integrity sha1-XT/yKgHAD2RUBaL7wX0HeKGAEXA=
 
 default-gateway@^6.0.3:
   version "6.0.3"
@@ -4427,6 +4476,11 @@ normalize-url@^6.0.1:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
   integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
 
+normalize-wheel@^1.0.1:
+  version "1.0.1"
+  resolved "http://r.npm.sankuai.com/normalize-wheel/download/normalize-wheel-1.0.1.tgz#aec886affdb045070d856447df62ecf86146ec45"
+  integrity sha1-rsiGr/2wRQcNhWRH32Ls+GFG7EU=
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -4695,6 +4749,11 @@ pkg-dir@^4.1.0:
   integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
   dependencies:
     find-up "^4.0.0"
+
+popper.js@^1.16.0:
+  version "1.16.1"
+  resolved "http://r.npm.sankuai.com/popper.js/download/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha1-KiI8s9x7YhPXQOQDcr5A3kPmWxs=
 
 portfinder@^1.0.26:
   version "1.0.32"
@@ -5125,6 +5184,11 @@ regenerate@^1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
+
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "http://r.npm.sankuai.com/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+  integrity sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
 
 regenerator-runtime@^0.13.11:
   version "0.13.11"
@@ -5759,6 +5823,11 @@ thread-loader@^3.0.0:
     loader-utils "^2.0.0"
     neo-async "^2.6.2"
     schema-utils "^3.0.0"
+
+throttle-debounce@^1.0.1:
+  version "1.1.0"
+  resolved "http://r.npm.sankuai.com/throttle-debounce/download/throttle-debounce-1.1.0.tgz#51853da37be68a155cb6e827b3514a3c422e89cd"
+  integrity sha1-UYU9o3vmihVctugns1FKPEIuic0=
 
 thunky@^1.0.2:
   version "1.1.0"

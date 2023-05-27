@@ -5,9 +5,12 @@
   <!-- <JsonToVue /> -->
   <!-- <PinySwitch /> -->
   <!-- <PinySwitch2 /> -->
-  <CompThree />
+  <!-- <CompThree /> -->
   <!-- <CompThree2 /> -->
-  <!-- <PinySwitch3 /> -->
+  <Page1 />
+  <Page2 />
+  <!-- <Page3 /> -->
+  <Page4 />
 </template>
 
 <script>
@@ -17,8 +20,12 @@
 // import PinySwitch from './components/pinySwitch/index.vue'
 // import PinySwitch2 from './components/pinySwitch2/index.vue'
 // import PinySwitch3 from './components/pinySwitch/index2.vue'
-import CompThree from './components/compThree/index.vue'
+// import CompThree from './components/compThree/index.vue'
 // import CompThree2 from './components/compThree/index2.vue'
+import Page1 from './components/001-page'
+import Page2 from './components/002-page'
+// import Page3 from './components/003-mtd'
+import Page4 from './components/004-page'
 export default {
   name: 'App',
   components: {
@@ -27,9 +34,13 @@ export default {
     // JsonToVue,
     // PinySwitch,
     // PinySwitch2,
-    CompThree,
+    // CompThree,
     // CompThree2,
     // PinySwitch3,
+    Page1,
+    Page2,
+    // Page3,
+    Page4,
   }
 }
 </script>

@@ -1,36 +1,40 @@
 <template>
-    <div class="pithy-switch">
-        <a-switch :checked="checked" @change="handleChange" />
+    <div id="app">
+        <h1>MTD Sketch</h1>
+        <mtd-button @click="increaseCount">Click me to increase count!</mtd-button>
+        <p>Current count is {{ count }}</p>
+        <mtd-input :value="inputValue" @change="updateInputValue"></mtd-input>
+        <mtd-checkbox :checked="isChecked" @change="toggleCheck">Check me</mtd-checkbox>
     </div>
 </template>
   
 <script>
-import { defineComponent } from 'vue';
-import { Switch } from 'ant-design-vue';
+import { Button, Checkbox, Input } from '@ss/mtd-vue';
 
-export default defineComponent({
-    name: 'PithySwitch',
+export default {
+    name: 'App',
     components: {
-        'a-switch': Switch,
+        MtdButton: Button,
+        MtdCheckbox: Checkbox,
+        MtdInput: Input
     },
     data() {
         return {
-            checked: false,
+            count: 0,
+            inputValue: '',
+            isChecked: false
         };
     },
     methods: {
-        handleChange(checked) {
-            this.checked = checked;
+        increaseCount() {
+            this.count += 1;
         },
-    },
-});
+        updateInputValue(event) {
+            this.inputValue = event.target.value;
+        },
+        toggleCheck(event) {
+            this.isChecked = event.target.checked;
+        }
+    }
+};
 </script>
-  
-<style scoped>
-.pithy-switch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-</style>
